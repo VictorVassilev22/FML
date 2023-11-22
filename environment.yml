@@ -1,0 +1,15 @@
+name: financial_ml_env
+channels:
+  - defaults
+dependencies:
+  - python=3.11.5
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - mlflow
+  - yfinance
+  - seaborn
+  - pandas-ta
+  - matplotlib
+  - jupyterpyth
