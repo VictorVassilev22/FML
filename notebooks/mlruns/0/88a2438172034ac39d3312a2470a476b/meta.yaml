@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/user/Desktop/FMLProject/FML/notebooks/mlruns/0/88a2438172034ac39d3312a2470a476b/artifacts
+end_time: 1700778588614
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 88a2438172034ac39d3312a2470a476b
+run_name: sedate-gnat-494
+run_uuid: 88a2438172034ac39d3312a2470a476b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700778588582
+status: 4
+tags: []
+user_id: user

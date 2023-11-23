@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/user/Desktop/FMLProject/FML/notebooks/mlruns/0/eb85bc6c6ded4f828fbab7e3db702bb0/artifacts
+end_time: 1700777996082
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: eb85bc6c6ded4f828fbab7e3db702bb0
+run_name: gentle-snipe-861
+run_uuid: eb85bc6c6ded4f828fbab7e3db702bb0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700777993621
+status: 3
+tags: []
+user_id: user

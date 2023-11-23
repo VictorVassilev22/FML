@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/user/Desktop/FMLProject/FML/notebooks/mlruns/0/16b7593562bf4a07ace0c0c3d49bb883/artifacts
+end_time: 1700777461618
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 16b7593562bf4a07ace0c0c3d49bb883
+run_name: awesome-bass-977
+run_uuid: 16b7593562bf4a07ace0c0c3d49bb883
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700777459078
+status: 4
+tags: []
+user_id: user

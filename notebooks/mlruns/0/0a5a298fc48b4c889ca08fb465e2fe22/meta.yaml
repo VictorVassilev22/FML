@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/user/Desktop/FMLProject/FML/notebooks/mlruns/0/0a5a298fc48b4c889ca08fb465e2fe22/artifacts
+end_time: 1700777494055
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0a5a298fc48b4c889ca08fb465e2fe22
+run_name: unique-wasp-707
+run_uuid: 0a5a298fc48b4c889ca08fb465e2fe22
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700777491932
+status: 3
+tags: []
+user_id: user

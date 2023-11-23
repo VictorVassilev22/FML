@@ -6,9 +6,6 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 
-def format_col_names(df):
-    df.columns = df.columns.str.replace(' ', '_')
-
 def add_pct_ch_and_future(df: pd.DataFrame, period=5):
     # Create 5-day % changes of Adj_Close for the current day, and n days in the future
     df[str(period) + 'd_close_pct'] = df['Adj_Close'].pct_change(period) #calc current % change
@@ -108,33 +105,6 @@ def add_sma_rsi_sma_x_rsi(df, periods=None):
     return df.columns
 
 
-def split_features_target(df, target_column, to_remove_list):
-    """
-    Function to split features and target columns.
-
-    Args:
-        df (pandas.DataFrame): The input DataFrame.
-        target_column (str): The name of the target column.
-        to_remove_list (list): The list of column names to exclude from the features.
-
-    Returns:
-        list: A list of feature column names.
-        str: The name of the target column.
-    """
-    # Get feature column names excluding the target column and columns in to_remove_list
-    feature_columns = [col for col in df.columns if col != target_column and col not in to_remove_list]
-
-    # Return feature column names and the target column name
-    return feature_columns, target_column
-
-def remove_features(df, to_remove_list):
-    # Get feature column names excluding the target column and columns in to_remove_list
-    feature_columns = [col for col in df.columns if col not in to_remove_list]
-
-    # Return feature column names and the target column name
-    return feature_columns
-
-
 def get_most_correlated_feature(corr, target_column):
     """
     Function to find the most correlated feature to the target column.
@@ -201,20 +171,6 @@ def add_volume_1d_pct_change_sma(df, sma_period_change=5):
     return df.columns
 
 
-def set_date_index(df):
-    # Check if the DataFrame has a 'Date' column or 'Date' as index
-    if 'Date' not in df.columns and df.index.name != 'Date':
-        raise ValueError("DataFrame must contain a 'Date' column or index")
-
-    if df.index.name != 'Date':
-        df['Date'] = pd.to_datetime(df['Date'])  # Convert the 'Date' column to pandas datetime objects
-        df.set_index('Date', inplace=True)  # Set the 'Date' column as the index
-    else:
-        df['Date'] = pd.to_datetime(df.index)  # Convert the 'Date' index column to pandas datetime objects
-
-    return df.columns
-
-
 def add_datetime_features(df, time_scales):
     # Check if the DataFrame has a 'Date' column or 'Date' as index
     if 'Date' not in df.columns and df.index.name != 'Date':
@@ -247,10 +203,8 @@ def add_datetime_features(df, time_scales):
         # Set the index of the time_dummies DataFrame to match the original DataFrame
         time_dummies.index = df.index
 
-        # Modify the original DataFrame by concatenating it with the new time feature DataFrame
-        for column in time_dummies.columns:
-            # Directly assign the new columns to the original DataFrame
-            df[column] = time_dummies[column]
+        # Join the dataframe with the days of week dataframe
+        df = pd.concat([df, time_dummies], axis=1)
 
     # return all columns in the modified DataFrame
     return df.columns
