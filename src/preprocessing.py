@@ -1,3 +1,5 @@
+import pandas as pd
+
 def set_date_index(df):
     # Check if the DataFrame has a 'Date' column or 'Date' as index
     if 'Date' not in df.columns and df.index.name != 'Date':
