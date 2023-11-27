@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/user/Desktop/FMLProject/FML/notebooks/mlruns/0/d643a38ed2334179b250eb869df74b8b/artifacts
+end_time: 1701040753338
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d643a38ed2334179b250eb869df74b8b
+run_name: efficient-doe-730
+run_uuid: d643a38ed2334179b250eb869df74b8b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701040750999
+status: 3
+tags: []
+user_id: user

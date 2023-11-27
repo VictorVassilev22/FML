@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/user/Desktop/FMLProject/FML/notebooks/mlruns/0/03c433cd3998420aad3ac4e4849431b8/artifacts
+end_time: 1701040488897
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 03c433cd3998420aad3ac4e4849431b8
+run_name: popular-rat-191
+run_uuid: 03c433cd3998420aad3ac4e4849431b8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701040486482
+status: 3
+tags: []
+user_id: user

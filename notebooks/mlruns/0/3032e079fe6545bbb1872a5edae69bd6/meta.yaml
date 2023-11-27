@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/user/Desktop/FMLProject/FML/notebooks/mlruns/0/3032e079fe6545bbb1872a5edae69bd6/artifacts
+end_time: 1701040858098
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3032e079fe6545bbb1872a5edae69bd6
+run_name: fun-wren-273
+run_uuid: 3032e079fe6545bbb1872a5edae69bd6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701040855703
+status: 3
+tags: []
+user_id: user

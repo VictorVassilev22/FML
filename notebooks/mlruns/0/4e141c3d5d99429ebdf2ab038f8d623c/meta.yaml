@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/user/Desktop/FMLProject/FML/notebooks/mlruns/0/4e141c3d5d99429ebdf2ab038f8d623c/artifacts
+end_time: 1700829374322
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4e141c3d5d99429ebdf2ab038f8d623c
+run_name: popular-stag-661
+run_uuid: 4e141c3d5d99429ebdf2ab038f8d623c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700829371490
+status: 3
+tags: []
+user_id: user

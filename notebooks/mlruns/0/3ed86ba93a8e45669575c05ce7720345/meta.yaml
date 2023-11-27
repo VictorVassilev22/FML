@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/user/Desktop/FMLProject/FML/notebooks/mlruns/0/3ed86ba93a8e45669575c05ce7720345/artifacts
+end_time: 1701041618755
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3ed86ba93a8e45669575c05ce7720345
+run_name: intelligent-gnu-429
+run_uuid: 3ed86ba93a8e45669575c05ce7720345
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701041616252
+status: 3
+tags: []
+user_id: user

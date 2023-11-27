@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/user/Desktop/FMLProject/FML/notebooks/mlruns/0/c6b5c1b5999647959c9f840bc29cd489/artifacts
+end_time: 1701041636693
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c6b5c1b5999647959c9f840bc29cd489
+run_name: nervous-finch-635
+run_uuid: c6b5c1b5999647959c9f840bc29cd489
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701041634332
+status: 3
+tags: []
+user_id: user

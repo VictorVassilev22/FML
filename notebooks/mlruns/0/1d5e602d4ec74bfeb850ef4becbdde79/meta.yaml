@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/user/Desktop/FMLProject/FML/notebooks/mlruns/0/1d5e602d4ec74bfeb850ef4becbdde79/artifacts
+end_time: 1701040985295
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1d5e602d4ec74bfeb850ef4becbdde79
+run_name: adaptable-fowl-747
+run_uuid: 1d5e602d4ec74bfeb850ef4becbdde79
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701040982872
+status: 3
+tags: []
+user_id: user

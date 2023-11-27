@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/user/Desktop/FMLProject/FML/notebooks/mlruns/0/9f056bc4f1a644adba3afc3ca79c7dbd/artifacts
+end_time: 1700925512460
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9f056bc4f1a644adba3afc3ca79c7dbd
+run_name: crawling-koi-256
+run_uuid: 9f056bc4f1a644adba3afc3ca79c7dbd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700925509698
+status: 3
+tags: []
+user_id: user

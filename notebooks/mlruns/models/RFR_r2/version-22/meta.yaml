@@ -1,0 +1,13 @@
+aliases: []
+creation_timestamp: 1701044052301
+current_stage: None
+description: null
+last_updated_timestamp: 1701044052301
+name: RFR_r2
+run_id: f63e9f6e92a946fe92bd5fb751efd21d
+run_link: null
+source: file:///c:/Users/user/Desktop/FMLProject/FML/notebooks/mlruns/0/f63e9f6e92a946fe92bd5fb751efd21d/artifacts/random_forest_regressor
+status: READY
+status_message: null
+user_id: null
+version: 22

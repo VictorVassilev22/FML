@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/user/Desktop/FMLProject/FML/notebooks/mlruns/0/c7c970e5119d456292b4bc559e06c3fd/artifacts
+end_time: 1701039514797
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c7c970e5119d456292b4bc559e06c3fd
+run_name: wise-kite-16
+run_uuid: c7c970e5119d456292b4bc559e06c3fd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701039511837
+status: 3
+tags: []
+user_id: user

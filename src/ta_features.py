@@ -60,18 +60,14 @@ def add_ema(df: pd.DataFrame, periods=None):
     return df.columns
 
 
-def add_wma(df: pd.DataFrame, period=5, custom_weights=5):
+def add_wma(df: pd.DataFrame, periods = None):
 
-     # If custom_weights is not provided, use equal weights
-    if custom_weights is None:
-        custom_weights = np.arange(1, period + 1)
+    if periods is None:
+        periods = [14, 30, 50, 200]
 
-    # Check if the length of custom_weights matches the specified period
-    if len(custom_weights) != period:
-        raise ValueError("Length of custom_weights should be equal to wma_period.")
-
+    for n in periods:
     # Calculate WMA with pandas_ta
-    df['wma' + str(period)] = tapd.wma(df['Adj_Close'], length=period, weights=custom_weights)
+        df['wma' + str(n)] = tapd.wma(df['Adj_Close'], length=n)
 
     return df.columns
 
@@ -93,8 +89,7 @@ def add_sma_rsi_sma_x_rsi(df, periods=None):
 
     for n in periods:
         # Create the moving average indicator and divide by Adj_Close
-        df['sma' + str(n)] = tapd.sma(df['Adj_Close'],
-                                     length=n) / df['Adj_Close'] #Why here is normalized?
+        df['sma' + str(n)] = tapd.sma(df['Adj_Close'], length=n)
 
         # Create the RSI indicator
         df['rsi' + str(n)] = tapd.rsi(df['Adj_Close'], length=n)
@@ -173,10 +168,10 @@ def add_volume_1d_pct_change_sma(df, sma_period_change=5):
 
 def add_datetime_features(df, time_scales):
     # Check if the DataFrame has a 'Date' column or 'Date' as index
-    if 'Date' not in df.columns and df.index.name != 'Date':
+    if df.index.name != 'Date':
         raise ValueError("DataFrame must contain a 'Date' column or index")
 
-    df['Date'] = pd.to_datetime(df['Date'])  # Convert the 'Date' column to pandas datetime objects
+    df.index = pd.to_datetime(df.index)  # Convert the 'Date' column to pandas datetime objects
 
     for time_scale in time_scales:
         # Set the prefix for the get_dummies() function
@@ -206,5 +201,4 @@ def add_datetime_features(df, time_scales):
         # Join the dataframe with the days of week dataframe
         df = pd.concat([df, time_dummies], axis=1)
 
-    # return all columns in the modified DataFrame
-    return df.columns
+    return df

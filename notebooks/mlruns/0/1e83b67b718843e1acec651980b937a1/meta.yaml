@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/user/Desktop/FMLProject/FML/notebooks/mlruns/0/1e83b67b718843e1acec651980b937a1/artifacts
+end_time: 1700926095651
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1e83b67b718843e1acec651980b937a1
+run_name: languid-grouse-801
+run_uuid: 1e83b67b718843e1acec651980b937a1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700926093487
+status: 3
+tags: []
+user_id: user
