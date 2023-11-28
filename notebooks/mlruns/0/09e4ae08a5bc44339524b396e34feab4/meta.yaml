@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/user/Desktop/FMLProject/FML/notebooks/mlruns/0/09e4ae08a5bc44339524b396e34feab4/artifacts
+end_time: 1701118262675
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 09e4ae08a5bc44339524b396e34feab4
+run_name: loud-newt-339
+run_uuid: 09e4ae08a5bc44339524b396e34feab4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701118260284
+status: 3
+tags: []
+user_id: user

@@ -1,0 +1,49 @@
+artifact_path: random_forest_regressor_smape
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.5
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.2.2
+mlflow_version: 2.6.0
+model_uuid: 7e7ec91823dc4a5ea1d7888159a49399
+run_id: 8dc19cfcc7b340649fe2898455a79384
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "Open"}, {"type": "double", "name": "High"},
+    {"type": "double", "name": "Low"}, {"type": "double", "name": "Close"}, {"type":
+    "double", "name": "Adj_Close"}, {"type": "long", "name": "Volume"}, {"type": "double",
+    "name": "sma14"}, {"type": "double", "name": "rsi14"}, {"type": "double", "name":
+    "SMAxRSI_14"}, {"type": "double", "name": "sma20"}, {"type": "double", "name":
+    "rsi20"}, {"type": "double", "name": "SMAxRSI_20"}, {"type": "double", "name":
+    "sma50"}, {"type": "double", "name": "rsi50"}, {"type": "double", "name": "SMAxRSI_50"},
+    {"type": "double", "name": "sma100"}, {"type": "double", "name": "rsi100"}, {"type":
+    "double", "name": "SMAxRSI_100"}, {"type": "double", "name": "sma200"}, {"type":
+    "double", "name": "rsi200"}, {"type": "double", "name": "SMAxRSI_200"}, {"type":
+    "double", "name": "ema14"}, {"type": "double", "name": "ema20"}, {"type": "double",
+    "name": "ema50"}, {"type": "double", "name": "ema100"}, {"type": "double", "name":
+    "ema200"}, {"type": "double", "name": "wma14"}, {"type": "double", "name": "wma20"},
+    {"type": "double", "name": "wma50"}, {"type": "double", "name": "wma100"}, {"type":
+    "double", "name": "wma200"}, {"type": "double", "name": "Volume_1d_change"}, {"type":
+    "double", "name": "Volume_30d_change_SMA"}, {"type": "double", "name": "Volume_90d_change_SMA"},
+    {"type": "boolean", "name": "month_1"}, {"type": "boolean", "name": "month_2"},
+    {"type": "boolean", "name": "month_3"}, {"type": "boolean", "name": "month_4"},
+    {"type": "boolean", "name": "month_5"}, {"type": "boolean", "name": "month_6"},
+    {"type": "boolean", "name": "month_7"}, {"type": "boolean", "name": "month_8"},
+    {"type": "boolean", "name": "month_9"}, {"type": "boolean", "name": "month_10"},
+    {"type": "boolean", "name": "month_11"}, {"type": "boolean", "name": "quarter_1"},
+    {"type": "boolean", "name": "quarter_2"}, {"type": "boolean", "name": "quarter_3"}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2023-11-27 20:42:13.450710'

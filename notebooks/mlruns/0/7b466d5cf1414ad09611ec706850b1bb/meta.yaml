@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/user/Desktop/FMLProject/FML/notebooks/mlruns/0/7b466d5cf1414ad09611ec706850b1bb/artifacts
+end_time: 1701197761667
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7b466d5cf1414ad09611ec706850b1bb
+run_name: orderly-stag-397
+run_uuid: 7b466d5cf1414ad09611ec706850b1bb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701197761635
+status: 4
+tags: []
+user_id: user
