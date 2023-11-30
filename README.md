@@ -34,4 +34,4 @@ The dataset consists of historical daily stock price information for a particula
 - **Volume:** The trading volume of the stock on a given day.
 - **Adjusted Close:** The adjusted closing price, accounting for corporate actions such as dividends and stock splits.
 
-*Happy reviewing*
+*Note: Read the notebooksm in the order of the listing of the models. Happy reviewing!*
