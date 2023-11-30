@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/user/Desktop/FMLProject/FML/notebooks/mlruns/0/10fb9d14ce6e4559b85d87afb1a397c2/artifacts
+end_time: 1701366959773
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 10fb9d14ce6e4559b85d87afb1a397c2
+run_name: dazzling-grouse-140
+run_uuid: 10fb9d14ce6e4559b85d87afb1a397c2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701366957112
+status: 3
+tags: []
+user_id: user

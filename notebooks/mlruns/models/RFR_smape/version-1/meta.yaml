@@ -1,12 +1,12 @@
 aliases: []
-creation_timestamp: 1701117026495
+creation_timestamp: 1701308556460
 current_stage: None
 description: null
-last_updated_timestamp: 1701117026495
-name: RFR_smape
-run_id: 610302c314b14851ab891bef66a10cfa
+last_updated_timestamp: 1701308556460
+name: RFR_sMAPE
+run_id: c0d4d9807fbc48548a0d26b695d97f18
 run_link: null
-source: file:///c:/Users/user/Desktop/FMLProject/FML/notebooks/mlruns/0/610302c314b14851ab891bef66a10cfa/artifacts/random_forest_regressor_smape
+source: file:///c:/Users/user/Desktop/FMLProject/FML/notebooks/mlruns/0/c0d4d9807fbc48548a0d26b695d97f18/artifacts/random_forest_regressor
 status: READY
 status_message: null
 user_id: null

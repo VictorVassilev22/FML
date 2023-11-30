@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/user/Desktop/FMLProject/FML/notebooks/mlruns/0/22dccd505ad54cb781bdb6d3f85695b5/artifacts
+end_time: 1701255790316
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 22dccd505ad54cb781bdb6d3f85695b5
+run_name: upset-hound-222
+run_uuid: 22dccd505ad54cb781bdb6d3f85695b5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701255785733
+status: 3
+tags: []
+user_id: user

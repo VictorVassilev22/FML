@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/user/Desktop/FMLProject/FML/notebooks/mlruns/0/561d27517c6b47b194c9aefce562dafa/artifacts
+end_time: 1701265700381
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 561d27517c6b47b194c9aefce562dafa
+run_name: amusing-hound-7
+run_uuid: 561d27517c6b47b194c9aefce562dafa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701265695657
+status: 3
+tags: []
+user_id: user

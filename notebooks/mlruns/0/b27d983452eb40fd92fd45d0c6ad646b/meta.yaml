@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/user/Desktop/FMLProject/FML/notebooks/mlruns/0/b27d983452eb40fd92fd45d0c6ad646b/artifacts
+end_time: 1701361785739
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b27d983452eb40fd92fd45d0c6ad646b
+run_name: sedate-loon-665
+run_uuid: b27d983452eb40fd92fd45d0c6ad646b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701361781879
+status: 3
+tags: []
+user_id: user

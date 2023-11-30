@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/user/Desktop/FMLProject/FML/notebooks/mlruns/0/74e8d10089684fb1aa50913a7207758b/artifacts
+end_time: 1701315879056
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 74e8d10089684fb1aa50913a7207758b
+run_name: trusting-mink-109
+run_uuid: 74e8d10089684fb1aa50913a7207758b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701315879021
+status: 4
+tags: []
+user_id: user

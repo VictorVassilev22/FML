@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/user/Desktop/FMLProject/FML/notebooks/mlruns/0/a71c78dcfa8c4ebaa55835d2d138d810/artifacts
+end_time: 1701265446629
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a71c78dcfa8c4ebaa55835d2d138d810
+run_name: colorful-swan-460
+run_uuid: a71c78dcfa8c4ebaa55835d2d138d810
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701265441510
+status: 3
+tags: []
+user_id: user

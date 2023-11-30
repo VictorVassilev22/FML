@@ -1,12 +1,12 @@
 aliases: []
-creation_timestamp: 1700778629796
+creation_timestamp: 1701342930251
 current_stage: None
 description: null
-last_updated_timestamp: 1700778629796
+last_updated_timestamp: 1701342930251
 name: ols_simple_model
-run_id: a6215a06fbf54d15b95817d720d34942
+run_id: 0ece0a223fc0495d8b4af6e4d9a87d7a
 run_link: null
-source: file:///c:/Users/user/Desktop/FMLProject/FML/notebooks/mlruns/0/a6215a06fbf54d15b95817d720d34942/artifacts/ols_model
+source: file:///c:/Users/user/Desktop/FMLProject/FML/notebooks/mlruns/0/0ece0a223fc0495d8b4af6e4d9a87d7a/artifacts/ols_model
 status: READY
 status_message: null
 user_id: null

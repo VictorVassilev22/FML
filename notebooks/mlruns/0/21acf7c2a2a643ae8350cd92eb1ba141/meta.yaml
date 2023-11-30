@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/user/Desktop/FMLProject/FML/notebooks/mlruns/0/21acf7c2a2a643ae8350cd92eb1ba141/artifacts
+end_time: 1701256555705
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 21acf7c2a2a643ae8350cd92eb1ba141
+run_name: unruly-mule-178
+run_uuid: 21acf7c2a2a643ae8350cd92eb1ba141
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701256551515
+status: 3
+tags: []
+user_id: user

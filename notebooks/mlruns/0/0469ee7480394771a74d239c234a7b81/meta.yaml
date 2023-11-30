@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/user/Desktop/FMLProject/FML/notebooks/mlruns/0/0469ee7480394771a74d239c234a7b81/artifacts
+end_time: 1701266128798
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0469ee7480394771a74d239c234a7b81
+run_name: learned-wolf-858
+run_uuid: 0469ee7480394771a74d239c234a7b81
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701266122765
+status: 3
+tags: []
+user_id: user

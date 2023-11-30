@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/user/Desktop/FMLProject/FML/notebooks/mlruns/0/33dcc79f30af4b2eab20dc6ce0eacddf/artifacts
+end_time: 1701320218767
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 33dcc79f30af4b2eab20dc6ce0eacddf
+run_name: upset-slug-876
+run_uuid: 33dcc79f30af4b2eab20dc6ce0eacddf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701320218738
+status: 4
+tags: []
+user_id: user

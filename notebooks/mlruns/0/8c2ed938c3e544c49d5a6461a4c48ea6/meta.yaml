@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/user/Desktop/FMLProject/FML/notebooks/mlruns/0/8c2ed938c3e544c49d5a6461a4c48ea6/artifacts
+end_time: 1701266083447
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8c2ed938c3e544c49d5a6461a4c48ea6
+run_name: angry-toad-334
+run_uuid: 8c2ed938c3e544c49d5a6461a4c48ea6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701266078529
+status: 3
+tags: []
+user_id: user

@@ -15,6 +15,91 @@ def add_pct_ch_and_future(df: pd.DataFrame, period=5):
     features = df.columns
     return features
 
+def add_daily_variation_feature(df):
+
+    # Check if the required columns are present
+    required_columns = ['Open', 'High', 'Low']
+    if not all(col in df.columns for col in required_columns):
+        raise ValueError("DataFrame must contain 'Open', 'High', and 'Low' columns.")
+
+    # Calculate Daily Variation
+    df['Daily_Variation'] = (df['High'] - df['Low']) / df['Open']
+
+    return df.columns
+
+def add_daily_return(df):
+
+    # Calculate daily return using pct_change method
+    df['Daily_Return'] = df['Adj_Close'].pct_change() * 100
+
+    return df.columns
+
+def add_n_day_std(df, n):
+    df['{}d_std'.format(n)] = df['Adj_Close'].rolling(window=n).std()
+    return df.columns
+
+def add_upper_confidence_interval(df, n):
+    # SMA + 2 STD
+    # Calculate upper confidence interval
+    df[f'{n}d_upper_conf_interval'] = df[f'sma{n}'] + 2 * df[f'{n}d_std']
+    
+    return df.columns
+
+def add_lower_confidence_interval(df, n):
+    # SMA - 2 STD
+    # Calculate SMA and STD
+    # Calculate upper confidence interval
+    df[f'{n}d_upper_conf_interval'] = df[f'sma{n}'] - 2 * df[f'{n}d_std']
+    
+    return df.columns
+
+def add_downward_pressure(df):
+    # (high-close)/open
+    df['Downward_Pressure'] = (df['High'] - df['Close']) / df['Open']
+    return df.columns
+
+def add_upward_pressure(df):
+    # (low-open)/open
+    df['Upward_Pressure'] = (df['Low'] - df['Open']) / df['Open']
+    return df.columns
+
+def add_cumulative_return(df):
+    df['Cumulative_Return'] = (1 + df['Adj_Close'].pct_change()).cumprod() - 1
+    return df.columns
+
+def add_stochastic_oscillator(data):
+    # Calculate Stochastic Oscillator using pandas_ta.stoch
+    stoch_result = tapd.stoch(data['High'], data['Low'], data['Adj_Close'])
+
+    # Merge the result with the original DataFrame
+    data = pd.concat([data, stoch_result], axis=1)
+
+    return data
+
+def add_atr(data, length):
+
+    # Calculate ATR using pandas_ta
+    data['ATR'] = tapd.atr(data['High'], data['Low'], data['Adj_Close'], length=length)
+
+    return data.columns
+
+def add_adx(df, length=14):
+    adx_result = tapd.adx(df['High'], df['Low'], df['Adj_Close'], length=length)
+
+    # Merge the result with the original DataFrame
+    df = pd.concat([df, adx_result], axis=1)
+
+    return df
+
+def add_dmi(data, window=14):
+ 
+    # Calculate DMI using pandas_ta
+    data_ta = tapd.dm(data['High'], data['Low'], length=window)
+    
+    # Merge the calculated DMI values into the original DataFrame
+    data = pd.concat([data, data_ta], axis=1)
+
+    return data
 
 def add_sma_normalized(df: pd.DataFrame, periods=None):
     # Create moving averages for time periods of 14, 30, 50, and 200
@@ -98,6 +183,14 @@ def add_sma_rsi_sma_x_rsi(df, periods=None):
         df['SMAxRSI_' + str(n)] = df['sma' + str(n)] * df['rsi' + str(n)]
 
     return df.columns
+
+
+def add_macd_feature(df, fast_period=12, slow_period=26, signal_period=9):
+   
+    # Calculate MACD using pandas_ta
+    df = pd.concat([df, tapd.macd(df['Adj_Close'], fast=fast_period, slow=slow_period, signal=signal_period)], axis=1)
+    return df
+
 
 
 def get_most_correlated_feature(corr, target_column):

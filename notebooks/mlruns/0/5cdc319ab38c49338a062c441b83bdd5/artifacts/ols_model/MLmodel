@@ -1,0 +1,38 @@
+artifact_path: ols_model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.5
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.2.2
+mlflow_version: 2.6.0
+model_uuid: cb9d2f57ef224c5290048a56bd75f5f1
+run_id: 5cdc319ab38c49338a062c441b83bdd5
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "const"}, {"type": "double", "name": "Open"},
+    {"type": "double", "name": "High"}, {"type": "double", "name": "Low"}, {"type":
+    "double", "name": "Close"}, {"type": "double", "name": "Adj_Close"}, {"type":
+    "double", "name": "Volume"}, {"type": "double", "name": "sma3"}, {"type": "double",
+    "name": "sma5"}, {"type": "double", "name": "sma7"}, {"type": "double", "name":
+    "sma10"}, {"type": "double", "name": "sma12"}, {"type": "double", "name": "sma14"},
+    {"type": "double", "name": "rsi3"}, {"type": "double", "name": "rsi5"}, {"type":
+    "double", "name": "rsi7"}, {"type": "double", "name": "rsi10"}, {"type": "double",
+    "name": "rsi12"}, {"type": "double", "name": "rsi14"}, {"type": "double", "name":
+    "ema3"}, {"type": "double", "name": "ema5"}, {"type": "double", "name": "ema7"},
+    {"type": "double", "name": "ema10"}, {"type": "double", "name": "ema12"}, {"type":
+    "double", "name": "ema14"}]'
+  outputs: '[{"type": "double"}]'
+  params: null
+utc_time_created: '2023-11-29 13:55:45.934330'

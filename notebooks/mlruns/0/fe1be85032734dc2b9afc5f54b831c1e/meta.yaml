@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/user/Desktop/FMLProject/FML/notebooks/mlruns/0/fe1be85032734dc2b9afc5f54b831c1e/artifacts
+end_time: 1701265945444
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fe1be85032734dc2b9afc5f54b831c1e
+run_name: thundering-mole-765
+run_uuid: fe1be85032734dc2b9afc5f54b831c1e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701265940428
+status: 3
+tags: []
+user_id: user

@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/user/Desktop/FMLProject/FML/notebooks/mlruns/0/083373d75bee4a9da9ebcae31e407b3b/artifacts
+end_time: 1701265513196
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 083373d75bee4a9da9ebcae31e407b3b
+run_name: dashing-ram-818
+run_uuid: 083373d75bee4a9da9ebcae31e407b3b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701265507960
+status: 3
+tags: []
+user_id: user

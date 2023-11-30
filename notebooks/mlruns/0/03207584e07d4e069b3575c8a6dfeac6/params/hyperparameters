@@ -1,0 +1,1 @@
+{'gb__learning_rate': 0.14, 'gb__max_depth': 165, 'gb__max_features': 12, 'gb__min_samples_split': 4, 'gb__n_estimators': 450}
